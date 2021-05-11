@@ -1,0 +1,212 @@
+:root {
+  --font-family: Roboto, sans-serif;
+  --letter-spacing: 0.03em;
+  --color-link: #2196f3;
+  --color-title: #212121;
+  --font-title: 700;
+  --font-size: 14px;
+  --background-color: #ffffff;
+  --background: #f5f4fa;
+  --color-text: #757575;
+  --color-text-two: #ffffff;
+}
+body {
+  font-family: var(--font-family);
+  letter-spacing: var(--letter-spacing);
+  color: var(--color-text);
+  font-size: var(--font-size);
+  background-color: var(--background-color);
+}
+
+/*=============COMPONENT=============*/
+.list {
+  list-style: none;
+}
+.links {
+  font-weight: 500;
+  font-size: var(--font-size);
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--color-title);
+  text-decoration: none;
+}
+.links:focus,
+.links:hover {
+  color: var(--color-link);
+}
+.link {
+  color: var(--color-link);
+}
+.title {
+  font-weight: var(--font-title);
+  font-size: 36px;
+  line-height: 1.16;
+  color: var(--color-title);
+}
+/*=============END COMPONENT=============*/
+/*=============HEADER=============*/
+.cont-head {
+  display: flex;
+  align-items: center;
+}
+.navigation {
+  display: flex;
+  margin-left: 93px;
+}
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: var(--font-title);
+  font-size: 26px;
+  line-height: 1.19;
+  color: #000000;
+  text-decoration: none;
+}
+.spanlogo {
+  color: var(--color-link);
+}
+.navigation-list {
+  display: flex;
+}
+.navigation-list .navigation-item + .navigation-item {
+  margin-left: 50px;
+}
+.navigation-list .links {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  /* outline: 2px solid red; */
+}
+.link-list {
+  display: flex;
+}
+.link-list .con-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  /* outline: 2px solid red; */
+}
+.link-list .item + .item {
+  margin-left: 30px;
+}
+.con-link {
+  color: var(--color-text);
+}
+
+/*=============END HEADER=============*/
+/*=============HERO=============*/
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-text-two);
+}
+.hero-btn {
+  font-weight: var(--font-title);
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--color-text-two);
+  background-color: var(--color-link);
+  cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #188ce8;
+}
+/*=============END HERO=============*/
+/*=============RULES=============*/
+
+.rules-title {
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.rules-about {
+  line-height: 1.71;
+}
+/*=============END RULES=============*/
+/*=============WHAT WE DO=============*/
+
+.what-title {
+  text-align: center;
+}
+
+/*=============END WHAT WE DO=============*/
+/*=============OUR TEAM=============*/
+.our-team {
+  background-color: var(--background);
+}
+.our-team-intem {
+  background-color: var(--background-color);
+}
+.our-team-title {
+  text-align: center;
+}
+
+.our-team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+.our-team-work {
+  font-size: 16px;
+  line-height: 1.18;
+}
+/*=============END OUR TEAM=============*/
+/*=============PORTFOLIO=============*/
+.filters-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  color: var(--color-title);
+  cursor: pointer;
+  background: var(--background);
+  border-radius: 4px;
+}
+.filters-btn:focus,
+.filters-btn:hover {
+  color: var(--background-color);
+  background-color: var(--color-link);
+}
+.galery-link {
+  text-decoration: none;
+}
+.gallery-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.gallery-about {
+  font-size: 16px;
+  line-height: 1.87;
+  color: #757575;
+}
+/*=============END PORTFOLIO=============*/
+/*=============FOOTER=============*/
+.basement {
+  background-color: #2f303a;
+}
+.basement-logo {
+  color: var(--color-text-two);
+}
+.ft-adres {
+  font-style: normal;
+}
+.adres {
+  line-height: 1.71;
+  color: var(--color-text-two);
+  text-decoration: none;
+}
+.foot-link {
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+/*=============END FOOTER=============*/
