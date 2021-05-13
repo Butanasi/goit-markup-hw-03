@@ -14,7 +14,7 @@
 <body class="page">
         <!--шапка-->
         <header>
-            <div class="cont-head">
+            <div class="conteiner cont-head">
                 <!--навігація-->
                 <nav class="navigation">
                     <a href="./index.html" class="logo">
@@ -37,71 +37,106 @@
             <section class="filters">
                 <div class="conteiner">
                     <h1>Портфолио</h1>
-                        <h2>Фільтри</h2>
-                        <ul class="filters-list list">
-                            <li>
-                                <button type="button" class="filters-btn">Все</button>
-                            </li>
-                            <li>
-                                <button type="button" class="filters-btn">Веб-сайты</button>    
-                            </li>
-                            <li>
-                                <button type="button" class="filters-btn">Приложения</button>   
-                            </li>
-                            <li>
-                                <button type="button" class="filters-btn">Дизайн</button>   
-                            </li>
-                            <li>
-                                <button type="button" class="filters-btn">Маркетинг</button>    
-                            </li>
-                        </ul>
-                        <ul class="gallery list">
-                            <li>    
-                                <a href="/" class="galery-link"><img src="./img/tehkrjak.jpg" alt="ноутбук" width="370" height="294" class="poster">
-                                    <h3 class="gallery-title title">Технокряк</h3>
-                                        <p class="gallery-about">Веб-сайт</p></a>
-                            </li>
-                            <li>
-                                <a href="/" class="galery-link"><img src="./img/new-orlean.jpg" alt="постер" width="370" height="294" class="poster">
-                                    <h3 class="gallery-title title">Постер <span lang="en">New Orlean vs Golden Star</span></h3>
-                                        <p class="gallery-about">Дизайн</p></a>
-                            </li>
-                            <li>
-                                <a href="/" class="galery-link"><img src="./img/seafood.jpg" alt="логотип ресторана" width="370" height="294" class="poster">
-                                    <h3 class="gallery-title title">Ресторан <span lang="en">Seafood</span></h3>
-                                        <p class="gallery-about">Приложение</p></a>
-                            </li>
-                            <li>
-                                <a href="/" class="galery-link"><img src="./img/prime.jpg" alt="наушники" width="370" height="294" class="poster">
-                                    <h3 class="gallery-title title">Проект <span lang="en">Prime</span></h3>
-                                        <p class="gallery-about">Маркетинг</p></a>
-                            </li>
-                            <li>
-                                <a href="/" class="galery-link"><img src="./img/boxes.jpg" alt="дві коробки" width="370" height="294" class="poster">
-                                    <h3 class="gallery-title title">Проект <span lang="en">Boxes</span></h3>
-                                        <p class="gallery-about">Приложение</p></a>
-                            </li>
-                            <li>
-                                <a href="/" class="galery-link"><img src="./img/boxes.jpg" alt="дві коробки" width="370" height="294" class="poster">
-                                    <h3 class="gallery-title title">Проект <span lang="en">Boxes</span></h3>
-                                        <p class="gallery-about">Приложение</p></a>
-                            </li>
-                            <li>
-                                <a href="/" class="galery-link"><img src="./img/limited-edition.jpg" alt="книга" width="370" height="294" class="poster">
-                                    <h3 class="gallery-title title">Издание <span lang="en">Limited Edition</span></h3>
-                                        <p class="gallery-about">Дизайн</p></a>
-                            </li>
-                            <li>
-                                <a href="/" class="galery-link"><img src="./img/lab.jpg" alt="етикетка" width="370" height="294" class="poster">
-                                    <h3 class="gallery-title title">Проект <span lang="en">LAB</span></h3>
-                                        <p class="gallery-about">Маркетинг</p></a>
-                            </li>
-                            <li>
-                                <a href="/" class="galery-link"><img src="./img/growing-business.jpg" alt="ноутбук" width="370" height="294" class="poster">
-                                    <h3 class="gallery-title title"><span lang="en">Growing Business</span></h3>
-                                        <p class="gallery-about">Приложение</p></a>
-                            </li>
-                        </ul>
+                    <h2>Фільтри</h2>
+                    <ul class="filters-list list">
+                        <li class="filters-item">
+                            <button type="button" class="filters-btn">Все</button>
+                        </li>
+                        <li class="filters-item">
+                            <button type="button" class="filters-btn">Веб-сайты</button>
+                        </li>
+                        <li class="filters-item">
+                            <button type="button" class="filters-btn">Приложения</button>
+                        </li>
+                        <li class="filters-item">
+                            <button type="button" class="filters-btn">Дизайн</button>
+                        </li>
+                        <li class="filters-item">
+                            <button type="button" class="filters-btn">Маркетинг</button>
+                        </li>
+                    </ul>
+                    <ul class="gallery list ">
+                        <li class="gallery-item">
+                            <a href="/" class="galery-link"><img src="./img/tehkrjak.jpg" alt="ноутбук" width="370" height="294"
+                                    class="poster">
+                                    <div class="gallery-box">
+                                        <h3 class="gallery-title title">Технокряк</h3>
+                                        <p class="gallery-about">Веб-сайт</p>
+                                    </div>
+                            </a>
+                        </li>
+                        <li class="gallery-item">
+                            <a href="/" class="galery-link"><img src="./img/new-orlean.jpg" alt="постер" width="370" height="294"
+                                    class="poster">
+                                    <div class="gallery-box">
+                                        <h3 class="gallery-title title">Постер <span lang="en">New Orlean vs Golden Star</span></h3>
+                                        <p class="gallery-about">Дизайн</p>
+                                    </div>
+                            </a>
+                        </li>
+                        <li class="gallery-item">
+                            <a href="/" class="galery-link"><img src="./img/seafood.jpg" alt="логотип ресторана" width="370" height="294"
+                                    class="poster">
+                                    <div class="gallery-box">
+                                        <h3 class="gallery-title title">Ресторан <span lang="en">Seafood</span></h3>
+                                        <p class="gallery-about">Приложение</p>
+                                    </div>
+                            </a>
+                        </li>
+                        <li class="gallery-item">
+                            <a href="/" class="galery-link"><img src="./img/prime.jpg" alt="наушники" width="370" height="294"
+                                    class="poster">
+                                    <div class="gallery-box">
+                                        <h3 class="gallery-title title">Проект <span lang="en">Prime</span></h3>
+                                        <p class="gallery-about">Маркетинг</p>
+                                    </div>
+                            </a>
+                        </li>
+                        <li class="gallery-item">
+                            <a href="/" class="galery-link"><img src="./img/boxes.jpg" alt="дві коробки" width="370" height="294"
+                                    class="poster">
+                                    <div class="gallery-box">
+                                        <h3 class="gallery-title title">Проект <span lang="en">Boxes</span></h3>
+                                        <p class="gallery-about">Приложение</p>
+                                    </div>
+                            </a>
+                        </li>
+                        <li class="gallery-item">
+                            <a href="/" class="galery-link"><img src="./img/borders.jpg" alt="компютер" width="370" height="294"
+                                    class="poster">
+                                    <div class="gallery-box">
+                                        <h3 class="gallery-title title"><span lang="en">Inspiration has no Borders</span></h3>
+                                        <p class="gallery-about">Веб-сайт</p>
+                                    </div>
+                            </a>
+                        </li>
+                        <li class="gallery-item">
+                            <a href="/" class="galery-link"><img src="./img/limited-edition.jpg" alt="книга" width="370" height="294"
+                                    class="poster">
+                                    <div class="gallery-box">
+                                        <h3 class="gallery-title title">Издание <span lang="en">Limited Edition</span></h3>
+                                        <p class="gallery-about">Дизайн</p>
+                                    </div>
+                            </a>
+                        </li>
+                        <li class="gallery-item">
+                            <a href="/" class="gallery-link"><img src="./img/lab.jpg" alt="етикетка" width="370" height="294" class="poster">
+                                    <div class="gallery-box">
+                                        <h3 class="gallery-title title">Проект <span lang="en">LAB</span></h3>
+                                        <p class="gallery-about">Маркетинг</p>
+                                    </div>
+                            </a>
+                        </li>
+                        <li class="gallery-item">
+                            <a href="/" class="galery-link"><img src="./img/growing-business.jpg" alt="ноутбук" width="370" height="294"
+                                    class="poster">
+                                    <div class="gallery-box">
+                                        <h3 class="gallery-title title"><span lang="en">Growing Business</span></h3>
+                                        <p class="gallery-about">Приложение</p>
+                                    </div>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </section>
         </main>
