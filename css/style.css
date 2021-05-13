@@ -19,7 +19,15 @@ body {
 }
 
 /*=============COMPONENT=============*/
+.conteiner {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 .list {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin: 0;
   list-style: none;
 }
 .links {
@@ -96,14 +104,19 @@ body {
 /*=============HERO=============*/
 .hero {
   background-color: #2f303a;
+  text-align: center;
 }
 .hero-title {
+  margin-top: 0;
+  margin-bottom: 30px;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+
   color: var(--color-text-two);
 }
 .hero-btn {
@@ -112,9 +125,14 @@ body {
   line-height: 1.87;
   text-align: center;
   letter-spacing: 0.06em;
+
   color: var(--color-text-two);
   background-color: var(--color-link);
+
   cursor: pointer;
+  padding: 10px 32px;
+  border-radius: 4px;
+  border: 1px solid transparent;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -124,38 +142,58 @@ body {
 /*=============RULES=============*/
 
 .rules-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
 .rules-about {
+  margin-top: 0;
+  margin-bottom: 0;
+
   line-height: 1.71;
 }
 /*=============END RULES=============*/
 /*=============WHAT WE DO=============*/
 
 .what-title {
+  margin-top: 0;
+  margin-bottom: 50px;
   text-align: center;
 }
 
 /*=============END WHAT WE DO=============*/
 /*=============OUR TEAM=============*/
 .our-team {
+  padding-top: 94px;
+  padding-bottom: 94px;
   background-color: var(--background);
 }
 .our-team-intem {
   background-color: var(--background-color);
 }
 .our-team-title {
+  margin-top: 0;
+  margin-bottom: 50px;
   text-align: center;
+}
+.foto {
+  margin-bottom: 30px;
 }
 
 .our-team-name {
+  margin-top: 0;
+  margin-bottom: 10px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
 }
 .our-team-work {
+  margin-top: 0;
+  margin-bottom: 0;
   font-size: 16px;
   line-height: 1.18;
 }
@@ -166,10 +204,15 @@ body {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-  color: var(--color-title);
+
   cursor: pointer;
+
+  color: var(--color-title);
   background: var(--background);
+
   border-radius: 4px;
+  border: 1px solid transparent;
+  padding: 6px 22px;
 }
 .filters-btn:focus,
 .filters-btn:hover {
@@ -179,12 +222,20 @@ body {
 .galery-link {
   text-decoration: none;
 }
+.poster {
+  margin-bottom: 20px;
+}
 .gallery-title {
+  margin-top: 0;
+  margin-bottom: 4px;
+
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 .gallery-about {
+  margin-top: 0;
+  margin-bottom: 0;
   font-size: 16px;
   line-height: 1.87;
   color: #757575;
@@ -192,15 +243,20 @@ body {
 /*=============END PORTFOLIO=============*/
 /*=============FOOTER=============*/
 .basement {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #2f303a;
 }
 .basement-logo {
+  margin-bottom: 20px;
   color: var(--color-text-two);
 }
 .ft-adres {
   font-style: normal;
 }
 .adres {
+  margin-top: 0;
+  margin-bottom: 9px;
   line-height: 1.71;
   color: var(--color-text-two);
   text-decoration: none;
@@ -208,5 +264,8 @@ body {
 .foot-link {
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
+}
+.mail {
+  margin-bottom: 9px;
 }
 /*=============END FOOTER=============*/
