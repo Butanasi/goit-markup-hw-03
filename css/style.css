@@ -35,6 +35,9 @@ section {
 img {
   display: block;
 }
+header {
+  border-bottom: 1px solid #ececec;
+}
 
 /*=============COMPONENT=============*/
 .conteiner {
@@ -72,7 +75,6 @@ img {
 .cont-head {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #ececec;
 }
 .navigation {
   display: flex;
