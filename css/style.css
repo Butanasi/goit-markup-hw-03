@@ -337,7 +337,7 @@ footer {
 /*=============END PORTFOLIO=============*/
 /*=============FOOTER=============*/
 .basement {
-  padding: 60px 0;
+  padding: 60px 15px;
 }
 .basement-logo {
   color: var(--color-text-two);
