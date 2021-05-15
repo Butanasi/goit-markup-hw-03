@@ -207,7 +207,9 @@ footer {
 }
 /*=============END RULES=============*/
 /*=============WHAT WE DO=============*/
-
+.what-we-do {
+  padding-bottom: 94px;
+}
 .what-title {
   margin-bottom: 50px;
 }
@@ -264,6 +266,7 @@ footer {
 /*=============END OUR TEAM=============*/
 /*=============PORTFOLIO=============*/
 .filters {
+  padding-bottom: 94px;
 }
 .filters-list {
   display: flex;
@@ -354,7 +357,8 @@ footer {
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
 }
-.mail {
+.ft-item {
   margin-bottom: 9px;
 }
+
 /*=============END FOOTER=============*/
